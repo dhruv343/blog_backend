@@ -30,6 +30,6 @@ app.use((err,req,res,next)=>{
     })
 })
 
-const port = process.env.PORT || 3500;
+const port = process.env.PORT || 8092;
 
 app.listen(port)
